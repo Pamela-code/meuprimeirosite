@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+    <title>PS Soluções Digitais</title>
+</head>
+<body>
+    
+    <div id="logo">PS Soluções Digitais</div>
+ <nav id="menu">
+    
+    <ul>
+<li onclick="mostraTexto1();sometexto2(); sometexto3()">  <a href="#"> Quem Somos  </a> </li>
+<li onclick="mostraTexto2(); sometexto1(); sometexto3()"> <a href="#"> Portfólio </a></li>
+<li onclick="sometexto2(); sometexto1(); mostratexto3()"> <a href="#"> Seu Orçamento </a></li>
+    </ul>
+</nav>
+<div id="textos">
+<div id="texto1" style="display: none;">
+  <p>Somos uma empresa de desenvolvimento Web focada na satisfação do cliente. </p> 
+   <p>Desde 2004 trabalhando para melhor atendê-lo e buscando aperfeiçoamento dia a dia,</p> 
+   <p>nossas técnicas de desenvolviento estão alinhadas com o que há de melhor no mercado. </p> 
+   <p>Estamos preparados para atender a sua empresa como ela merece. Não deixe de nos contactar!</p> 
+</div>
+
+<div id="texto2" style="display: none;">
+    Em Construção
+</div>
+<div id="texto3" style="display: none;">
+<p>Entre em contato conosco e obtenha seu orçamento!</p> 
+<p>WhatsApp: (21)92000-0159</p>
+<p>Email: psc.cont@gmail.com</p>
+</div>
+</div>
+</div>
+
+
+<script>
+
+    var textoAtual = '';
+    
+    function mostraTexto1(){
+        document.getElementById("texto1").style.display = "inline";
+    }
+    function mostraTexto2 (){
+        document.getElementById("texto2").style.display = "inline"
+    }
+    function sometexto1 (){
+        document.getElementById("texto1").style.display = "none"
+    }
+    function sometexto2 (){
+          document.getElementById("texto2").style.display = "none"
+    }
+    function mostratexto3 (){
+        document.getElementById("texto3").style.display = "inline"
+    }
+    function sometexto3 (){
+        document.getElementById("texto3").style.display = "none"
+    }
+    //mostraTexto1();
+</script>
+
+
+
+    
+        <div>
+            <img src="pc.png" height="auto" width="35%" id="imagem">
+        </div>
+
+
+
+
+
+
+
+</body>
+</html> 

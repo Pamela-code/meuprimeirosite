@@ -1,0 +1,81 @@
+body{
+    background-image: url("fundo.jpg");
+}
+ nav{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    font-size: 18px;
+ }
+ul li{
+     display: inline;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+     }
+ul li a {
+    padding: 4px 20px;
+    display: inline-block;
+    background-color: rgb(228, 219, 219);
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+    border-bottom:3px solid rgb(228, 219, 219);
+    
+    
+}
+
+ul li a:hover {
+    background-color:#D6D6D6;
+    color: #444242;
+    border-bottom:3px solid rgb(6, 99, 206);
+}
+
+#menu{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.0);
+}
+  
+
+#logo{
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(33, 99, 173);
+    margin: 0px;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+#corpo{
+
+    position: absolute;
+    margin-top: 40px;
+    color: #0f0e0e;
+
+}
+
+#imagem{
+    position: absolute;
+    right: 90px;
+    top: 120px;
+  
+   
+}
+
+
+#textos{
+    position: relative;
+    top: 83px;
+    left: 43px;
+    font-size: 19px;
+    font-style: italic;
+    color: rgb(22, 22, 97);
+
+}
